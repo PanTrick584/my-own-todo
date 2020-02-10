@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding:0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+
+
+/* MAIN */
+
+/* Main Section 1 */
+
+
+.section1Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeHandler{
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+/* Main Section 2 */
+
+.section2Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateHandler{
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+/* Main Section 3 */
+
+.section3Main{
+    display: flex;
+}
