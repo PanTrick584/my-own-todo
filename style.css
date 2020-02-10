@@ -42,4 +42,9 @@ body {
 
 .section3Main{
     display: flex;
+    justify-content: center;
+}
+
+.taskParagraph{
+    font-size: 2rem;
 }
