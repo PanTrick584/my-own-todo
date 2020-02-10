@@ -8,16 +8,17 @@
     
     <title>Document</title>
 </head>
-<body>
+<body onload="workingClock()">
     
     <header>
-        <h1>Js Import</h1>
+        <h1 class="h1Header" >Js Import</h1>
     </header>
     <main>
         <!-- Section 1 -->
         <section class="section1Main"> 
             
             <div class="timeHandler" ></div>
+            <button  class="section1TimeKiller" onclick="killInterval()">Time Killer</button>
 
         </section>
         <!-- Section 2 -->
@@ -30,7 +31,9 @@
             <div>
                 <input class="section3Input" type="text" ></input>
                 <button class="buttonPushInput" onclick="buttonPushInput()">Commit Task</button>
+                <p class="orderP">Lista zadań:</p>
                 <p class="taskParagraph" ></p>
+
             </div>
         </section>
     </main>

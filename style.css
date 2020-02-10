@@ -3,11 +3,20 @@ body {
     padding:0;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: #f2e122;
+
 }
 
 /* HEADER */
 
-
+.h1Header{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+}
 
 /* MAIN */
 
@@ -16,8 +25,29 @@ body {
 
 .section1Main{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    /* height: 400px; */
+}
+
+.section1TimeKiller{
+    /* display: inline-block; */
+    /* align-self: flex-end; */
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border: 0px;
+    color: #f2e122;
+    font-size: 3.2rem;
+   margin: 0;
+   padding: 0
+}
+
+.section1TimeKiller:focus{
+    outline: none;
+    border: none;
+    background-color: #1c1c1b;
 }
 
 .timeHandler{
@@ -46,5 +76,7 @@ body {
 }
 
 .taskParagraph{
-    font-size: 2rem;
+    font-size: 8rem;
+    width: 50%;
+    font-weight: 700;
 }
